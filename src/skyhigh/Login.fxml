@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="skyhigh.LoginController">
+   <children>
+      <Label layoutX="230.0" layoutY="76.0" prefHeight="20.0" prefWidth="182.0" text="Sky Medical Center" textFill="#000000b2">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="177.0" layoutY="136.0" text="Username:" />
+      <Label layoutX="177.0" layoutY="168.0" text="Password:" />
+      <TextField fx:id="txtUserName" layoutX="264.0" layoutY="123.0" />
+      <PasswordField fx:id="txtPassword" layoutX="264.0" layoutY="163.0" />
+      <Button fx:id="button" layoutX="359.0" layoutY="216.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Login" />
+      <Label fx:id="lblMessage" layoutX="185.0" layoutY="270.0" prefHeight="16.0" prefWidth="231.0" textFill="#e84f4f" />
+   </children>
+</AnchorPane>
